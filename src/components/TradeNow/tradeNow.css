@@ -1,0 +1,88 @@
+.tradeNow{
+    width: 100%;
+    padding: 20px 0 0 20px;
+    box-sizing: border-box;
+}
+
+.tradeNowInner{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.tradeNowExchanges{
+    width: 85%;
+    margin-right: 15px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.tradeNowExchange{
+    min-width: 250px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: var(--lighterGrey);
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tradeNowExchange p {
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.tradeNowExchange span{
+    font-size: 14px;
+}
+
+.tradeNowExchangeIcon{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.tradeNowCard{
+    width: 200px;
+    background-color: var(--tradeNow);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tradeNowCard h3{
+    margin-bottom: 2.5px;
+}
+
+.tradeNowCard small{
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+
+
+
+/* 
+.tradeNowInner{
+    width
+} */
+
