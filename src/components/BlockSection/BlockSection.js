@@ -18,7 +18,34 @@ function BlockSection() {
 					</div>
 				</div>
 
-				<div className="blockSectionLeft"></div>
+				<div className="blockSectionLeft">
+					<div className="blockSectionLeftHeading">
+						<p className="blockSectionLeftHeadingTitle thisWeek">THIS WEEK'S</p>
+						<p className="blockSectionLeftHeadingTitle editorsPick">Editor's Pick</p>
+					</div>
+
+					<ul className="blockSectionLeftPostLists">
+						<li className="blockSectionLeftPost">
+							<img src="/" alt="postImage" />
+							<div className="blockSectionLeftPostInfo">
+								<h3 className="blockSectionLeftPostTitle">
+									Ayodeji Awosika speaks on foray into crypto, training 1000 blockchain developers with Web3bridge
+								</h3>
+
+								<span className="blockSectionLeftPostMetaInfo">
+								<span className="postAuthor blockSectionLeftPostAuthor">
+									by <b>Temitope Akinlade</b>
+								</span>
+
+								<span className="postReadTime blockSectionLeftPostReadTime">
+									5 minutes read
+								</span>
+								</span>
+							</div>
+						</li>
+					</ul>
+
+				</div>
 			</div>
 		</div>
 	);
