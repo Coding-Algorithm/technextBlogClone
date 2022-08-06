@@ -11,7 +11,7 @@ function BlockSection() {
 			<div className="blockSectionInner">
 				<div className="blockSectionRight">
 					<div className="blockSectionRightBackground">
-						<img src={images[1]} alt="postImage" />
+						<img src={images["image"]} alt="postImage" />
 					</div>
 					<div className="blockSectionRightTop">
                     <div className="blockSectionRightTopAuthor">
@@ -30,13 +30,67 @@ function BlockSection() {
 						<p className="blockSectionLeftHeadingTitle editorsPick">Editor's Pick</p>
 					</div>
 
-					<ul className="blockSectionLeftPostLists">
+					<ul className="blockSectionLeftPostLists">	
 						<li className="blockSectionLeftPost">
-							<img src="/" alt="postImage" />
+							<img src={images["image1"]} alt="postImage" />
 							<div className="blockSectionLeftPostInfo">
-								<h3 className="blockSectionLeftPostTitle">
+								<p className="blockSectionLeftPostTitle">
 									Ayodeji Awosika speaks on foray into crypto, training 1000 blockchain developers with Web3bridge
-								</h3>
+								</p>
+
+								<span className="blockSectionLeftPostMetaInfo">
+								<span className="postAuthor blockSectionLeftPostAuthor">
+									by <b>Temitope Akinlade</b>
+								</span>
+
+								<span className="postReadTime blockSectionLeftPostReadTime">
+									5 minutes read
+								</span>
+								</span>
+							</div>
+						</li>
+						<li className="blockSectionLeftPost">
+							<img src={images["image1"]} alt="postImage" />
+							<div className="blockSectionLeftPostInfo">
+								<p className="blockSectionLeftPostTitle">
+									Ayodeji Awosika speaks on foray into crypto, training 1000 blockchain developers with Web3bridge
+								</p>
+
+								<span className="blockSectionLeftPostMetaInfo">
+								<span className="postAuthor blockSectionLeftPostAuthor">
+									by <b>Temitope Akinlade</b>
+								</span>
+
+								<span className="postReadTime blockSectionLeftPostReadTime">
+									5 minutes read
+								</span>
+								</span>
+							</div>
+						</li>
+						<li className="blockSectionLeftPost">
+							<img src={images["image1"]} alt="postImage" />
+							<div className="blockSectionLeftPostInfo">
+								<p className="blockSectionLeftPostTitle">
+									Ayodeji Awosika speaks on foray into crypto, training 1000 blockchain developers with Web3bridge
+								</p>
+
+								<span className="blockSectionLeftPostMetaInfo">
+								<span className="postAuthor blockSectionLeftPostAuthor">
+									by <b>Temitope Akinlade</b>
+								</span>
+
+								<span className="postReadTime blockSectionLeftPostReadTime">
+									5 minutes read
+								</span>
+								</span>
+							</div>
+						</li>
+						<li className="blockSectionLeftPost">
+							<img src={images["image1"]} alt="postImage" />
+							<div className="blockSectionLeftPostInfo">
+								<p className="blockSectionLeftPostTitle">
+									Ayodeji Awosika speaks on foray into crypto, training 1000 blockchain developers with Web3bridge
+								</p>
 
 								<span className="blockSectionLeftPostMetaInfo">
 								<span className="postAuthor blockSectionLeftPostAuthor">
