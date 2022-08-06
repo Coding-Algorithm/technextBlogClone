@@ -3,7 +3,6 @@
     padding: 0 10%;
     margin-top: 50px;
     box-sizing: border-box;
-    background-color: orange;
 }
 
 .blockSectionInner{
@@ -15,8 +14,49 @@
 }
 
 .blockSectionRight{
+    position: relative;
     display: flex;
-    background-color: black;
+    background-color: red;
+}
+
+.blockSectionRightBackground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+
+.blockSectionRightTop{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+   position: relative;
+}
+
+.blockSectionRightTopAuthor{
+    display: flex;
+    align-items: center;
+}
+
+.blockSectionRightTopAuthor img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.blockSectionRightTopAuthor span{
+    font-size: 14px;
+
+}
+
+.blockSectionRightTop h2{
+    position: absolute;
+    bottom: 40px;
 }
 
 

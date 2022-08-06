@@ -1,12 +1,18 @@
 import React from "react";
+import { images } from "../../data/images";
 import "./blockSection.css";
 
 function BlockSection() {
+
+	
+
 	return (
 		<div className="blockSection">
 			<div className="blockSectionInner">
 				<div className="blockSectionRight">
-					<div className="blockSectionRightBackground"></div>
+					<div className="blockSectionRightBackground">
+						<img src={images[1]} alt="postImage" />
+					</div>
 					<div className="blockSectionRightTop">
                     <div className="blockSectionRightTopAuthor">
                         <img src="/" alt="author" />
